@@ -18,7 +18,7 @@ const Projects = () => {
               >
                 <div className="img flex justify-center items-center p-3">
                   <img
-                    src={data.imageSrc}
+                    src={data.imageSrc} 
                     className="w-60 h-32 object-cover"
                     alt={data.title}
                   />
@@ -32,14 +32,18 @@ const Projects = () => {
                   </p>
 
                   <div className="btn mt-3 flex justify-around">
-                    <a
+                  <a
                       href={data.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-white bg-sky-500 hover:bg-sky-800 focus:ring-4 focus:ring-blue-300 font-medium text-lg px-3 py-1.5"
                     >
                       Demo
                     </a>
                     <a
                       href={data.source}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-white bg-sky-500 hover:bg-sky-800 focus:ring-4 focus:ring-blue-300 font-medium text-lg px-3 py-1.5"
                     >
                       Code

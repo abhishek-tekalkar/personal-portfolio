@@ -4,7 +4,7 @@
     "title": "QR-code-Generator",
     "imageSrc": "https://images.pexels.com/photos/278430/pexels-photo-278430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "description": "This is a project made with javascript.",
-    "demo": "qrcodebyat.netlify.app/",
+    "demo": "https://qrcodebyat.netlify.app/",
     "source": "https://github.com/abhishek-tekalkar/QR-code-Generator"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Password-Generator",
     "imageSrc": "https://cdn.pixabay.com/photo/2019/01/17/19/10/login-3938429_1280.png",
     "description": "This is a project made with complete React js.",
-    "demo": "passbyat.netlify.app",
+    "demo": "https://passbyat.netlify.app",
     "source": "https://github.com/abhishek-tekalkar/Password-Generator"
   },
   {
