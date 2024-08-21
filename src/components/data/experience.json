@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "role": "Web Devlopment intern",
+    "organisation": "Neo-docto pvt ltd",
+    "startDate": "Sept, 2021",
+    "endDate": "March, 2022",
+    "location": "remote",
+    "experiences": [
+      "Worked on frontend development",
+      "Designed and implemented database models"
+    ]
+    
+  }
+]
