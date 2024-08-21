@@ -28,7 +28,7 @@
     "title": "portfolio",
     "imageSrc": "https://cdn.pixabay.com/photo/2018/05/04/20/01/website-3374825_1280.jpg",
     "description": "This is a project made with complete React js.",
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "demo": "https://portfoliobyat.netlify.app/",
+    "source": "https://github.com/abhishek-tekalkar/personal-portfolio"
   }
 ]
