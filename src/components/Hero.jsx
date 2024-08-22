@@ -1,18 +1,37 @@
-import React from "react";
-import { motion } from "framer-motion";
+import React, { useEffect, useRef } from "react";
 import hero from "./data/hero.json";
 import pdf from "../pdf/resume.pdf";
+import Typed from "typed.js";
+
 function Hero() {
-    return (
+  const typedRef = useRef(null);
+  useEffect(() => {
+    const options = {
+      strings: ["Abhishek Tekalkar"],
+      typeSpeed: 50,
+      backDelay: 3000,
+      backSpeed: 50,
+      showCursor: false,
+      // cursorChar: "$",
+      loop: true,
+    };
+
+    const typed = new Typed(typedRef.current, options);
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+  return (
     <>
       <div className="container flex justify-between items-start min-h-screen">
-        <div className="left text-white mt-60 flex tracking-widest  flex-col  justify-start self-start">
+        <div className="left text-white mt-60 flex tracking-widest  flex-col    justify-start self-start">
           <div>
-            <h1 className="lg:text-7xl text-5xl text-sky-300 font-bold">
-              Abhishek Tekalkar
+            <h1 ref={typedRef} className="lg:text-7xl text-5xl text-sky-300 font-bold">
+            {/* here is my name  */}
             </h1>
-
-            <h3 className=" text-sky-100 text-xl lg:text-3xl mt-3 mb-3 hover:text-yellow-400 hover:font-bold hover:text-2xl">
+            
+            <h3 className=" text-sky-100 text-xl lg:text-3xl mt-3 mb-3 hover:text-yellow-400  hover:font-medium hover:text-3xl">
               Aspiring Software Engineer
             </h3>
           </div>
