@@ -4,17 +4,16 @@ import project from "./data/projects.json";
 const Projects = () => {
   return (
     <>
-      <div className="container mx-auto projects mt-20 px-4" id="projects">
+      <div className=" mx-auto projects lg:mt-20 px-4 md:mt-2" id="projects">
         <h1 className="text-white text-4xl font-bold tracking-wider text-center">
           PROJECTS
         </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 ">
           {project.map((data) => (
             <div key={data.id} className="col-span-1">
               <div
-                className="card bg-sky-950 w-full h-auto border-cyan-200 border-4"
-                data-aos="flip-right"
-                data-aos-duration="1000"
+                className="card bg-sky-950 w-[21rem] h-auto border-cyan-200 border-4"
+                
               >
                 <div className="img flex justify-center items-center p-3">
                   <img
@@ -31,7 +30,7 @@ const Projects = () => {
                     {data.description}
                   </p>
 
-                  <div className="btn mt-3 flex justify-around">
+                  <div className="btn mt-3 flex justify-around ">
                   <a
                       href={data.demo}
                       target="_blank"
