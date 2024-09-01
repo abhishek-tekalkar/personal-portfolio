@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import hero from "./data/hero.json";
 import pdf from "../pdf/resume.pdf";
 import Typed from "typed.js";
-
+import pic from "../assets/profile-pic.png";
 function Hero() {
   const typedRef = useRef(null);
   useEffect(() => {
@@ -48,7 +48,7 @@ function Hero() {
         </div>
         <div className="right">
           <div className="mt-60 flex justify-end self-end lg:h-60 lg:w-60 lg:hover:h-80 lg:hover:w-80 hover:duration-80 hover:duration-300 h-40 w-40">
-            <img src={`/assets/${hero.imgSrc}`} alt="hero" />
+            <img src={pic} alt="hero" className="rounded-full"/>
           </div>
         </div>
       </div>
