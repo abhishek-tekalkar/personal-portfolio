@@ -4,13 +4,13 @@ const Skills = () => {
   return (
     <>
       <div className="container skills mt-20" id="skills">
-        <h1 className="text-white text-4xl font-bold tracking-wider ">
+        <h1 className="text-white md:text-4xl text-3xl font-bold tracking-wider ">
           SKILLS
         </h1>
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 p-3 m-3 ">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 md:gap-6 gap-11 p-3 m-3 ">
           {skills.map((data) => (
             <div
-              className="bg-sky-950 border-cyan-200 border-4 p-3 flex flex-col items-center justify-center w-40"
+              className="bg-sky-950 border-cyan-200 border-4 p-3 flex flex-col items-center justify-center w-36 md:w-40"
               key={data.id}
             >
               <img

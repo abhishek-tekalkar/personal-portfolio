@@ -27,7 +27,7 @@ function Hero() {
       <div className="container flex flex-col-reverse md:flex-row md:justify-between items-start md:mb-48 mb-16">
         <div className="left text-white md:mt-60 mt-20 flex tracking-widest flex-col justify-center self-center md:justify-start md:self-start">
           <div>
-            <h1 ref={typedRef} className="lg:text-7xl text-3xl md:text-5xl text-sky-300 font-bold">
+            <h1 ref={typedRef} className="lg:text-7xl text-4xl md:text-5xl text-sky-300 font-bold">
             {/* here is my name  */}
             </h1>
             

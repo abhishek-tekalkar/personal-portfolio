@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <>
       <div className=" mx-auto projects lg:mt-20 px-4 md:mt-2" id="projects">
-        <h1 className="text-white text-4xl font-bold tracking-wider text-center">
+        <h1 className="text-white md:text-4xl text-3xl font-bold tracking-wider text-center">
           PROJECTS
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 ">

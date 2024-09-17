@@ -4,7 +4,7 @@ const Achievement = () => {
   return (
     <>
       <div className="container mt-5" id="experience">
-        <h1 className="text-white text-4xl font-bold tracking-wider ">
+        <h1 className="text-white md:text-4xl text-3xl font-bold tracking-wider ">
         Achievements & Involvement
         </h1>
         return (

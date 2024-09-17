@@ -4,7 +4,7 @@ const Experience = () => {
     return (
       <>
         <div className="container ex" id="experience">
-          <h1 className='text-white text-4xl font-bold tracking-wider '>EXPERIENCE</h1>
+          <h1 className='text-white md:text-4xl text-3xl font-bold tracking-wider '>EXPERIENCE</h1>
           {experience.map((data) => {
             return (
               <>
