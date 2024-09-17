@@ -24,8 +24,8 @@ function Hero() {
   }, []);
   return (
     <>
-      <div className="container flex justify-between items-start md:mb-48 mb-16">
-        <div className="left text-white mt-60 flex tracking-widest  flex-col    justify-start self-start">
+      <div className="container flex flex-col-reverse md:flex-row md:justify-between items-start md:mb-48 mb-16">
+        <div className="left text-white md:mt-60 mt-20 flex tracking-widest flex-col justify-center self-center md:justify-start md:self-start">
           <div>
             <h1 ref={typedRef} className="lg:text-7xl text-3xl md:text-5xl text-sky-300 font-bold">
             {/* here is my name  */}
@@ -46,9 +46,9 @@ function Hero() {
             </a>
           </div>
         </div>
-        <div className="right">
-          <div className="mt-60 flex justify-end self-end lg:h-60 lg:w-60 lg:hover:h-80 lg:hover:w-80 hover:duration-80 hover:duration-300 h-40 w-40">
-            <img src={pic} alt="hero" className="rounded-full"/>
+        <div className="right flex justify-center self-center">
+          <div className="mt-28 md:mt-60 flex md:justify-end md:self-end lg:h-60 lg:w-60 lg:hover:h-80 lg:hover:w-80 hover:duration-80 hover:duration-300 md:h-40 md:w-40">
+            <img src={pic} alt="hero" className="rounded-full w-56 h-56"/>
           </div>
         </div>
       </div>
